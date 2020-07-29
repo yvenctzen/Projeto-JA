@@ -1,0 +1,16 @@
+#titulo {
+    text-align: center;
+    background-image: url(img/Perito_Moreno_Glacier_Patagonia_Argentina_Luca_Galuzzi_2005.jpg);
+    padding: 20px 0 0px 0;
+    margin-bottom: 20px;
+
+}
+
+#texto {
+    font-family: 'Oxygen', sans-serif;
+}
+
+#metas {
+    padding: 30px 0 30px 0;
+    font-family: 'Oxygen', sans-serif;
+}
