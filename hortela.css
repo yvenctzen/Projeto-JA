@@ -1,0 +1,83 @@
+.vermelho {
+    width: 33%;
+    height: 200px;
+    float: left;
+    background-color: rgb(255, 160, 160);
+}
+
+.azul {
+    width: 33%;
+    height: 200px;
+    float: left;
+    background-color: rgb(201, 224, 231);
+    margin-left: 7px;
+}
+
+.amarelo {
+    width: 33%;
+    height: 200px;
+    float: right;
+    background-color: rgb(253, 253, 192);
+}
+
+@media screen and (max-width: 800px) {
+
+    p {
+        visibility: hidden;
+    }
+
+    .vermelho {
+        width: 100%;
+        height: 200px;
+        float: left;
+        background-color: rgb(255, 160, 160);
+    }
+    
+    .azul {
+        width: 100%;
+        height: 200px;
+        float: left;
+        background-color: rgb(201, 224, 231);
+        margin-left: 0px;
+    }
+    
+    .amarelo {
+        width: 100%;
+        height: 200px;
+        float: right;
+        background-color: rgb(253, 253, 192);
+    }
+
+
+
+}
+
+
+@media screen and (min-width: 801px) {
+
+    .vermelho {
+        width: 33%;
+        height: 200px;
+        float: left;
+        background-color: rgb(255, 160, 160);
+    }
+    
+    .azul {
+        width: 33%;
+        height: 200px;
+        float: left;
+        background-color: rgb(201, 224, 231);
+        margin-left: 7px;
+    }
+    
+    .amarelo {
+        width: 33%;
+        height: 200px;
+        float: right;
+        background-color: rgb(253, 253, 192);
+    }
+
+
+
+}
+
