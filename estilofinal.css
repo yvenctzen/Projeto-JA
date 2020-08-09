@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+}
+
+.vermelho {
+    width: 1335px;
+    height: 700px;
+    float: left;
+    background-image: url(pexels-irina-iriser-1831489.jpg)
+}
+
+h2 {
+    text-align: center;
+    padding: 160px 180px 0px 180px;
+    color: #ffb067;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    margin-bottom: auto;
+}
+
+h3 {
+    text-align: center;
+    color: #ffd7bd;
+    font-size: 30px;
+    margin: auto;
+}
+
+button  {
+    text-align: center;
+    margin-left: 620px;
+    margin-top: 15px;
+    padding: 5px 40px 5px 40px;
+    color: burlywood;
+    background-color: black;
+}
+
+
+@media screen and (max-width: 800px) {
+
+
+    .vermelho {
+        width: 420px;
+        height: 730px;
+        float: left;
+    }
+
+    h2 {
+        text-align: center;
+        padding: 100px 100px 0px 100px;
+        color: #ffb067;
+        font-size: 100px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+        margin-bottom: auto;
+    }
+    
+    h3 {
+        text-align: center;
+        color: #ffd7bd;
+        font-size: 30px;
+        margin: auto;
+    }
+    
+    button  {
+        text-align: center;
+        margin-left: 150px;
+        padding: 5px 40px 5px 40px;
+    }
+}
