@@ -50,6 +50,10 @@ p {
         font-size: 10px;
     }
     
+    #segundo {
+        text: hidden;
+    }
+    
     .dois {
         width: 100%;
         height: 640px;
